@@ -249,6 +249,7 @@ body {
   animation: glowing 5s forwards linear infinite;
 }
 
+/* LightHouse tower */
 .lh1 {
   position: absolute;
   background: rgb(14, 8, 15);
@@ -265,7 +266,6 @@ body {
   left: 350px;
 }
 
-/* LightHouse tower */
 .lh2 {
   position: absolute;
   background: rgb(14, 8, 15);
