@@ -252,6 +252,38 @@ body {
 /* LightHouse tower */
 .lh1 {
   position: absolute;
+  background: rgb(156, 144, 126);
+  background: linear-gradient(
+    0deg,
+    rgba(156, 144, 126, 1) 23%,
+    rgba(200, 184, 160, 1) 75%,
+    rgba(245, 225, 196, 1) 98%
+  );
+  height: 60px;
+  width: 87px;
+  clip-path: polygon(20% 0%, 80% 0%, 90% 100%, 10% 100%);
+  top: 280px;
+  left: 357px;
+}
+
+.lh2 {
+  position: absolute;
+  background: rgb(128, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(128, 0, 0, 1) 23%,
+    rgba(122, 30, 25, 1) 75%,
+    rgba(114, 45, 45, 1) 98%
+  );
+  height: 60px;
+  width: 115px;
+  clip-path: polygon(20% 0%, 80% 0%, 90% 100%, 10% 100%);
+  top: 340px;
+  left: 343px;
+}
+
+.lh3 {
+  position: absolute;
   background: rgb(14, 8, 15);
   background: linear-gradient(
     0deg,
@@ -259,14 +291,30 @@ body {
     rgba(47, 19, 17, 1) 75%,
     rgba(90, 34, 19, 1) 98%
   );
-  height: 240px;
-  width: 100px;
+  height: 60px;
+  width: 153px;
   clip-path: polygon(20% 0%, 80% 0%, 90% 100%, 10% 100%);
-  top: 280px;
-  left: 350px;
+  top: 400px;
+  left: 324px;
 }
 
-.lh2 {
+.lh4 {
+  position: absolute;
+  background: rgb(14, 8, 15);
+  background: linear-gradient(
+    0deg,
+    rgba(14, 8, 15, 1) 23%,
+    rgba(47, 19, 17, 1) 75%,
+    rgba(90, 34, 19, 1) 98%
+  );
+  height: 60px;
+  width: 202px;
+  clip-path: polygon(20% 0%, 80% 0%, 90% 100%, 10% 100%);
+  top: 460px;
+  left: 300px;
+}
+
+.lh5 {
   position: absolute;
   background: rgb(14, 8, 15);
   background: linear-gradient(
@@ -282,14 +330,14 @@ body {
   left: 380px;
 }
 
-.lh3 {
+.lh6 {
   position: absolute;
-  background: rgb(122, 64, 12);
+  background: rgb(128, 0, 0);
   background: linear-gradient(
     0deg,
-    rgba(122, 64, 12, 1) 0%,
-    rgba(66, 35, 17, 1) 19%,
-    rgba(14, 8, 15, 1) 92%
+    rgba(114, 45, 45, 1) 0%,
+    rgba(122, 30, 25, 1) 19%,
+    rgba(128, 0, 0, 1) 92%
   );
   height: 35px;
   width: 75px;
@@ -321,7 +369,7 @@ body {
 /* LightHouse balcony */
 .r1,
 .r2 {
-  background: var(--bg-color);
+  background: #800000;
   position: absolute;
   height: 3px;
   width: 80px;
@@ -337,7 +385,7 @@ body {
 .r4,
 .r5,
 .r6 {
-  background: var(--bg-color);
+  background: #800000;
   position: absolute;
   height: 3px;
   width: 40px;
@@ -359,7 +407,7 @@ body {
 }
 
 .r7 {
-  background: var(--bg-color);
+  background: #800000;
   position: absolute;
   height: 3px;
   width: 84px;
@@ -368,7 +416,7 @@ body {
 }
 
 .r8 {
-  background: var(--bg-color);
+  background: #800000;
   clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
   position: absolute;
   height: 10px;
@@ -382,7 +430,7 @@ body {
 .top {
   position: absolute;
   clip-path: polygon(50% 0%, 0% 60%, 99% 60%);
-  background: var(--bg-color);
+  background: #800000;
   height: 60px;
   width: 60px;
   top: 169px;
