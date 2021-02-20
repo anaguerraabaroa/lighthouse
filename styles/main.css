@@ -1,10 +1,11 @@
+/* Default styles */
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
-/* Select document root to declare global variables */
+/* Color variables */
 :root {
   --bg-color: #0e080f;
   --brown: #6b2412;
@@ -15,6 +16,56 @@
   --lighter-brown: #a45a3a;
 }
 
+/* Switch button styles */
+.switch {
+  position: relative;
+  display: flex;
+  width: 40px;
+  height: 20px;
+  top: -270px;
+  left: 780px;
+  z-index: 999;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--white);
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 2px;
+  background-color: var(--lighter-brown);
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: var(--brown);
+}
+
+input:checked + .slider:before {
+  transform: translate(16px);
+}
+
+/* Global background */
 body {
   height: 100vh;
   display: flex;
@@ -23,6 +74,7 @@ body {
   background: var(--white);
 }
 
+/* Lighthouse container */
 .container {
   position: relative;
   background: rgb(68, 39, 17);
@@ -36,6 +88,7 @@ body {
   overflow: hidden;
 }
 
+/* LightHouse glow */
 .c1 {
   position: absolute;
   background: rgb(64, 32, 4);
@@ -212,6 +265,7 @@ body {
   left: 350px;
 }
 
+/* LightHouse tower */
 .lh2 {
   position: absolute;
   background: rgb(14, 8, 15);
@@ -264,6 +318,7 @@ body {
   top: 200px;
 }
 
+/* LightHouse balcony */
 .r1,
 .r2 {
   background: var(--bg-color);
@@ -323,6 +378,7 @@ body {
   left: 356px;
 }
 
+/* LightHouse top */
 .top {
   position: absolute;
   clip-path: polygon(50% 0%, 0% 60%, 99% 60%);
@@ -333,6 +389,7 @@ body {
   left: 372px;
 }
 
+/* Water */
 .water {
   position: absolute;
   height: 100px;
@@ -348,6 +405,7 @@ body {
   right: 0;
 }
 
+/* Rock */
 .rock1,
 .rock2,
 .rock3,
@@ -404,6 +462,7 @@ body {
   left: 390px;
 }
 
+/* Glowing animation */
 @keyframes glowing {
   0% {
     transform: scale(1);
