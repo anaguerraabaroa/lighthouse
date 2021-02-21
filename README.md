@@ -37,7 +37,7 @@ git push
 
 ## **Project capture**
 
-![Lightroom](./images/lighthouse_css_animation.jpg)
+![Lightroom](./images/lighthouse_css_animation.JPG)
 
 ## **License**
 
