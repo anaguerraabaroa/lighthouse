@@ -36,7 +36,7 @@ git commit -m "Message commit"
 git push
 ```
 
-## **Project capture**
+## **Screenshots**
 
 ![Lightroom](./images/lighthouse_css_animation.JPG)
 
