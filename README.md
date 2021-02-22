@@ -17,7 +17,8 @@ LightHouse
 ├── audio
 │   └── waves.mp3
 ├── images
-│   └── favicon.svg
+│   ├── favicon.svg
+│   └── lighthouse_css_animation.jpg
 ├── js
 │   └── main.js
 ├── styles
