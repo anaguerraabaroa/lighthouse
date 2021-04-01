@@ -1,3 +1,5 @@
+![Lightroom](./images/lighthouse_css_animation.png)
+
 # **Lighthouse**
 
 This is a LightHouse CSS animation developed with [<img src = "https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white">](https://html.spec.whatwg.org/) [<img src = "https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white">](https://www.w3.org/Style/CSS/) and [<img src = "https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black">](https://www.ecma-international.org/ecma-262/)
@@ -18,7 +20,7 @@ LightHouse
 │   └── waves.mp3
 ├── images
 │   ├── favicon.svg
-│   └── lighthouse_css_animation.jpg
+│   └── lighthouse_css_animation.png
 ├── js
 │   └── main.js
 ├── styles
@@ -35,10 +37,6 @@ git add -A
 git commit -m "Message commit"
 git push
 ```
-
-## **Screenshots**
-
-![Lightroom](./images/lighthouse_css_animation.JPG)
 
 ## **License**
 
