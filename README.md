@@ -36,14 +36,6 @@ LightHouse
 └── README.md
 ```
 
-## **Updating**
-
-```
-git add -A
-git commit -m "Message commit"
-git push
-```
-
 ## **License**
 
 This project is licensed under [**MIT License**](https://spdx.org/licenses/MIT.html).
