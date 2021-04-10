@@ -7,6 +7,8 @@ This is a LightHouse CSS animation developed with [<img src = "https://img.shiel
 
 Project inspired by a [**CSS Animation video tutorial**](https://www.youtube.com/watch?v=uzuqsxua89k).
 
+**[Project URL](https://anaguerraabaroa.github.io/lighthouse/)** is available on GitHub Pages.
+
 ### Installation
 
 - Clone repository:
@@ -16,8 +18,6 @@ git clone [repository]
 ```
 
 - Run project on local server with VSCode live server plugin.
-
-- **[Project URL](https://anaguerraabaroa.github.io/lighthouse/)** is also available on GitHub Pages.
 
 ## **Folder Structure**
 
