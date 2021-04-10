@@ -6,11 +6,17 @@ This is a LightHouse CSS animation developed with [<img src = "https://img.shiel
 
 It was inspired on a video tutorial [**here**](https://www.youtube.com/watch?v=uzuqsxua89k)
 
-## **Installation**
+### Installation
 
-Clone repository and open project on a browser with VSCode live server plugin.
+- Clone repository:
 
-Project **[URL](https://anaguerraabaroa.github.io/lighthouse/)** is also available on GitHub Pages.
+```
+git clone [repository]
+```
+
+- Run project on local server with VSCode live server plugin.
+
+- **[Project URL](https://anaguerraabaroa.github.io/lighthouse/)** is also available on GitHub Pages.
 
 ## **Folder Structure**
 
